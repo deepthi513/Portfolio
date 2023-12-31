@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(24, 44, 52);
+  }
+  header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index:1;
+  }
+ 
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position:fixed
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+ 
+  .section-title {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+
+  #about {
+      
+    color:white;
+    position: relative;
+    justify-content: space-around;
+    top:10px;
+  }
+  .social-icons {
+    font-size: 24px; 
+    margin-top: 1px;
+    text-align: right;
+    position: relative;
+    top:-40px;
+}
+.social-icons a {
+    margin-right: 10px;
+    color: #fff; 
+}
+ 
+ 
+  footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+  }
+  

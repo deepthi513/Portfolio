@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(24, 44, 52);
+  }
+  header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index:1;
+  }
+  /* Navbar Styles */
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position:fixed
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  .card {
+    border: none;
+    margin-bottom: 50px;
+    box-shadow: 20px 10px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  h4{
+    color:rgb(7, 198, 240)
+  }
+  h3{
+    color:rgb(7, 198, 240)
+  }
+
+  .social-icons {
+    font-size: 24px; /* Adjust icon size */
+    margin-top: 1px;
+    text-align: right;
+    position: relative;
+    top:-40px;
+}
+.social-icons a {
+    margin-right: 10px;
+    color: #fff; /* Change icon color */
+}
+ 
+  /* Footer Styles */
+  footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+  }

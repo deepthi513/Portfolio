@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(24, 44, 52);
+  }
+  header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index:1;
+  }
+ 
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position:fixed
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+
+#contact_us{
+    position: relative;
+    top:1px;
+}
+
+.context{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 10px rgb(14, 30, 39);
+}
+
+
+.contact_us_form{
+    display: flex;
+    height:500px ;
+    top:300px;
+
+}
+h3{
+    color:rgb(7, 198, 240);
+}
+.contact_us_form form{
+    width:80%;
+    padding: 30px;
+    margin:30px;
+    height:450px;
+    border-radius: 10px;
+    background-color: rgb(24, 44, 52);
+    box-shadow: 0px 0px 10px 10px rgb(14, 30, 39);
+}
+.contact_us_form form label{
+    color:white;
+}
+.context_cont{
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: rgb(24, 44, 52);
+
+}
+
+.form_cont{
+    background-color: rgb(24, 44, 52);
+
+}
+    .social-icons {
+        font-size: 24px; 
+        margin-top: 1px;
+        text-align: right;
+        position: relative;
+        top:-40px;
+    }
+    .social-icons a {
+        margin-right: 10px;
+        color: #fff;
+    }
+     
+     
+      footer {
+        background-color: #333333;
+        color: white;
+        padding: 10px 0;
+      }
